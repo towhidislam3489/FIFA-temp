@@ -1,0 +1,147 @@
+nav .logo-container .logo img{
+    height: 60px;
+    width: 40px;
+}
+nav .logo-container
+{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+nav .logo-container .logo_text
+{
+    margin-top: 0px;
+}
+nav .logo-container .logo {
+    padding-top: 10px;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+   
+}
+nav .item ul{
+    display: flex;
+    list-style: none;
+    /* gap: 20px; */
+}
+nav .item ul li{
+    padding-right: 50px;
+    width: 100px;
+    /* background-color: rebeccapurple; */
+}
+nav .item ul .sp1{
+    width: 150px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav .item ul li{
+    font-size: 25px;
+}
+nav .item 
+{
+    padding-top: 20px;
+}
+nav .button{
+    padding-left: 120px;
+    padding-top: 20px;
+    
+}
+nav .button button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 179, 0);
+    border-radius: 10px;
+    border: 1px solid yellow;
+}
+nav .button button:hover{
+    cursor: pointer;
+    background-color: rgb(120, 122, 123);
+}
+
+.hero
+{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),
+    url('./image/hero-image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.hero .big-text{
+    font: 900;
+    font-size: 40px;
+     color: aliceblue;
+    
+}
+.hero p
+{
+    font-size: 30px;
+    padding-right: 800px;
+    color: aliceblue;
+}
+.hero .hero-content
+{
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.hero .hero-content .hero-button button{
+     background-color:  rgb(255, 179, 0);
+    font-size: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font: 900;
+    font-weight: 700;
+}
+.hero .hero-content .hero-button
+{
+    height: 50px;
+}
+
+.after-hero
+{
+    background-color: rgb(247, 194, 0);
+    margin: 10px;
+}
+.after-hero .content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.after-hero .content h1
+{
+    font-size: 50px;
+}
+.after-hero .content
+{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.after-hero .content .ahs
+{
+    padding-left: 30px;
+}
+.after-hero .content .aht
+{
+    padding-left: 30px;
+}
+.after-hero .content .ahfo
+{
+    padding-left: 30px;
+}
+/* .after-hero .content .ahf
+{
+    padding-left: 30px;
+} */
